@@ -614,13 +614,15 @@ a:focus,
 
 #about img{
     margin-bottom:40px;
-	border:15px solid transparent;
+	/* border:15px solid transparent; */
 	/* box-shadow:5px 3px 0 rgba(255,255,255,.6); */
 }
 
 #about p{
-    font-size:21px;
-    line-height:28px;
+    /* font-size:21px;
+    line-height:28px; */
+    font-size: 16.5px;
+    line-height: 37px;
 }
 
 .skills {
@@ -1081,6 +1083,7 @@ a:focus,
 
 #contact .section-header p {
     opacity:0.6;
+    margin-bottom: 50px;
 }
 
     .bl_form {
@@ -1184,6 +1187,8 @@ a:focus,
     margin:0;
     padding:0;
     margin-bottom:20px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .social-links li{
@@ -1211,6 +1216,35 @@ a:focus,
 }
 
 .social-links li a:hover {
+    color:#fff;
+    background:#38A5DB;
+}
+
+.social-links div{
+    display:inline-block;
+    margin:0 5px;
+    border-radius:3px;
+    box-shadow:0 4px 0 transparent;
+    -webkit-transition:all .3s ease-out;
+    transition:all .3s ease-out;
+}
+
+.social-links div a {
+    display:block;
+    color:#fff;
+    color:rgba(255,255,255,0.3);
+    font-size:18px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    background:rgba(0,0,0,0.2);
+    border-radius:50%;
+    -webkit-transition:all .3s ease-out;
+    transition:all .3s ease-out;
+}
+
+.social-links div a:hover {
     color:#fff;
     background:#38A5DB;
 }
