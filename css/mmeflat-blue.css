@@ -1190,7 +1190,7 @@ a:focus,
     display: flex;
     justify-content: space-evenly;
 }
-
+/* 
 .social-links li{
     display:inline-block;
     margin:0 5px;
@@ -1218,7 +1218,7 @@ a:focus,
 .social-links li a:hover {
     color:#fff;
     background:#38A5DB;
-}
+} */
 
 .social-links div{
     display:inline-block;
