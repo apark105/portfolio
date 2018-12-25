@@ -378,12 +378,13 @@ a:focus,
 }
 
 #home{
-    background-color:#38A5DB;
+    /* background-color:#38A5DB; */
 }
 
 .jumbotron.bg-image {
     position: relative;
-    background:url(../assets/header.jpg) 50% 50% no-repeat;
+    background:url(../assets/background/deskfrz.jpg) 50% 20% no-repeat;
+    background:url(../assets/background/bible.jpg) 50% 0% no-repeat;
     background-size: cover;
 }
 
