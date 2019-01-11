@@ -767,6 +767,9 @@ a:focus,
 	transform: translateX(0);
     -webkit-transition:-webkit-transform 0.4s ease-out;
     transition:transform 0.4s ease-out;
+    border: 3px;
+    border-style: double;
+    border-color: #3a3c4a;
 }
 
 .project-item:hover img {
@@ -910,8 +913,8 @@ a:focus,
     margin:0;
     padding:0;
     padding-top:40px;
-    background:#38A5DB;
-    color:#fff;
+    background: rgba(241,241,241);
+    color: black;
     border:none;
     text-align:center;
 }
