@@ -912,7 +912,7 @@ a:focus,
     width:100%;
     margin:0;
     padding:0;
-    padding-top:40px;
+    /* padding-top:40px; */
     background: rgba(241,241,241);
     color: black;
     border:none;
@@ -943,7 +943,7 @@ a:focus,
 
 .modal-body {
     margin:0;
-    padding:60px 0 20px;
+    padding:70px 0 70px;
 }
 
 .modal-body .project-descr{
@@ -1011,7 +1011,7 @@ a:focus,
 #sdbr-date:before {
 	display: inline-block;
 	width:20px;
-    content:"\f073";
+    content:"\f09b";
     font-family:"Fontawesome";
     margin-right:10px;
 }

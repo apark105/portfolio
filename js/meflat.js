@@ -142,7 +142,8 @@ $(document).ready(function() {
 			}else{$(this).find('#sdbr-category').hide();}
 			
 			if(elemDataCont.data('date')){
-				$(this).find('#sdbr-date').show().text(elemDataCont.data('date'))
+				var extLink = elemDataCont.data('date').split(',');
+				$(this).find('#sdbr-date').show().find('a').text(extLink[0]).attr('href',extLink[1])
 			}else{$(this).find('#sdbr-date').hide();}
 			
 			if(elemDataCont.data('client')){
