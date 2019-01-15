@@ -923,6 +923,10 @@ a:focus,
     margin-bottom:40px;
 }
 
+#project-modal {
+    background-color: #f1f1f1;
+}
+
 #project-modal .close{
     float:none;
     font-size:52px;
@@ -1480,3 +1484,4 @@ a:focus,
 		min-height:660px;
 	}
 }
+
