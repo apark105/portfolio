@@ -104,6 +104,12 @@ a:focus,
     font-weight:600;
     letter-spacing:0.05em;
 }
+
+.section-header1 h1{
+    font-size:48px;
+    font-weight:600;
+    letter-spacing:0.05em;
+}
 /*------------------
 ----- Buttons ------
 --------------------*/
@@ -1238,18 +1244,24 @@ a:focus,
 }
 
 .social-links div a {
-    display:block;
+    /* display:block; */
     color:#fff;
     color:rgba(255,255,255,0.3);
     font-size:18px;
-    width:40px;
-    height:40px;
+    /* width:40px; */
+    width: 60px;
+    /* height:40px; */
+    height: 50px;   
     line-height:40px;
     text-align:center;
     background:rgba(0,0,0,0.2);
     border-radius:50%;
     -webkit-transition:all .3s ease-out;
     transition:all .3s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
 
 .social-links div a:hover {
