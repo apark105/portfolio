@@ -35,8 +35,8 @@ $(document).ready(function() {
 		smoothHeight: false
 	});
 	
-	$("#home .text-col h1").fitText(0.9, { minFontSize: '38px', maxFontSize: '63px' });
-	$("#home .text-col p").fitText(1.2, { minFontSize: '18px', maxFontSize: '32px' });
+	$("#home .text-col h1").fitText(0.9, { minFontSize: '38px', maxFontSize: '74px' });
+	$("#home .text-col p").fitText(1.2, { minFontSize: '18px', maxFontSize: '35px' });
 	
 	if($('#home .imac-screen').length){
 		$('.imac-screen img').load(function(){

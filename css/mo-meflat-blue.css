@@ -84,11 +84,11 @@ a:focus,
 }
 
 .padding-top-bottom {
-    padding:100px 0;
+    padding:50px 0;
 }
 
 .padding-top {
-    padding:100px 0 0;
+    padding:50px 0 0;
 }
 
 .navbar {
@@ -101,15 +101,15 @@ a:focus,
 }
 
 .section-header h1{
-    font-size:48px;
+    font-size:50px;
     font-weight:600;
-    letter-spacing:0.05em;
+    letter-spacing:0.08em;
 }
 
 .section-header1 h1{
-    font-size:48px;
+    font-size:50px;
     font-weight:600;
-    letter-spacing:0.05em;
+    letter-spacing:0.08em;
 }
 /*------------------
 ----- Buttons ------
@@ -190,7 +190,10 @@ a:focus,
 }
 
 .dark-bg{
-    background:#1D2026;
+    /* background:#1D2026; */
+    /* background-image: radial-gradient(circle, #1b1e24, #171c24, #121a23, #0c1823, #041622); */
+    background-image: radial-gradient(circle, #22262d, #1c222a, #151e28, #0e1a25, #041622);
+    /* background-image: radial-gradient(circle, #1b1f25, #171d24, #121a24, #0c1823, #041622); */
 }
 
 .light-typo {
@@ -432,7 +435,8 @@ a:focus,
     font-size:32px;
     font-weight:400;
     letter-spacing:0.02em;
-	opacity:0;
+    opacity:0;
+    line-height: 1;
 	-webkit-transform:translateY(1000px);
 	transform:translateY(1000px);
 	-webkit-transition:opacity .5s ease-out .8s,-webkit-transform .5s ease-out .8s;
@@ -1497,4 +1501,3 @@ a:focus,
 		min-height:660px;
 	}
 }
-
