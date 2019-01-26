@@ -1,5 +1,12 @@
 $(document).ready(function() {
 	
+	function spinnerTime(){
+		$('body').css('overflow', 'auto');
+		$('section *').css('visibility', 'visible');
+		$('.mainBody').css('display', 'none');
+	}
+
+	 setTimeout(spinnerTime, 2000);
 	/*============================================
 	Navigation Functions
 	==============================================*/
