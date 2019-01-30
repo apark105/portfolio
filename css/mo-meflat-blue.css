@@ -1538,7 +1538,8 @@ header *{
     content: "";
     position: relative;
     display: block;
-  /* }
+  }
+/*
   .spinner:before {
     animation: spinner 2.5s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
     width: 1em;
